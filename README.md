@@ -1,8 +1,8 @@
 # Squid Proxy AMI
 
-A quick test squid proxy AMI for replication/debug use cases.
+A quick test squid proxy AMI for replication/debug use cases requiring a HTTP forward proxy for outbound connections.
 
-Configured by default to listen on port 8080, accepting HTTP(s) traffic with no caching as basic forward HTTP proxy.
+Configured by default to listen on port 8080, accepting HTTP(s) traffic with no caching as a basic forward HTTP proxy server.
 Change `files/squid-min.conf` to adjust squid config as needed.
 
 ## Building
