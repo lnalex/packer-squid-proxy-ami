@@ -14,7 +14,9 @@ Change `files/squid-min.conf` to adjust squid config as needed.
 
 
 **Build using packer**
+
 Adjust `region` in `squid.pkr.hcl` to your AWS region. Then run:
+
 ```sh
 $ packer build squid.pkr.hcl
 ```
