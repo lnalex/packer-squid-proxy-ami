@@ -8,8 +8,11 @@ Change `files/squid-min.conf` to adjust squid config as needed.
 ## Building
 
 **Prerequisites**
+
 [Install packer](https://learn.hashicorp.com/tutorials/packer/getting-started-install)
+
 [Configure AWS creds](https://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html)
+
 
 **Build using packer**
 Adjust `region` in `squid.pkr.hcl` to your AWS region. Then run:
